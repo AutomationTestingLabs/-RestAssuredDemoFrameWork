@@ -1,0 +1,7 @@
+api\tests\UsersTests.class
+api\utils\ExcelUtility.class
+api\utils\ExtentReportManager.class
+api\tests\BaseTest.class
+api\endpoints\UsersEndPoints.class
+api\payloads\User.class
+api\utils\DataProviders.class

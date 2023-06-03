@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PetStore" duration-ms="14809" started-at="2023-06-02T14:07:43Z" finished-at="2023-06-02T14:07:58Z">
+    <groups>
+    </groups>
+    <test name="Users" duration-ms="14809" started-at="2023-06-02T14:07:43Z" finished-at="2023-06-02T14:07:58Z">
+      <class name="api.tests.UsersTests">
+        <test-method status="PASS" signature="testCreateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:api.tests.UsersTests@1d082e88]" name="testCreateUser" duration-ms="3164" started-at="2023-06-02T14:07:45Z" data-provider="Data" finished-at="2023-06-02T14:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuser01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ntest1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test#2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="testCreateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:api.tests.UsersTests@1d082e88]" name="testCreateUser" duration-ms="1288" started-at="2023-06-02T14:07:48Z" data-provider="Data" finished-at="2023-06-02T14:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1213]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuser02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ntest2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test#2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="testCreateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:api.tests.UsersTests@1d082e88]" name="testCreateUser" duration-ms="1328" started-at="2023-06-02T14:07:49Z" data-provider="Data" finished-at="2023-06-02T14:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuser03]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ijkl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ntest3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test#2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="updateUserTest(java.lang.String)[pri:2, instance:api.tests.UsersTests@1d082e88]" name="updateUserTest" duration-ms="1190" started-at="2023-06-02T14:07:50Z" data-provider="UserNames" finished-at="2023-06-02T14:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="updateUserTest(java.lang.String)[pri:2, instance:api.tests.UsersTests@1d082e88]" name="updateUserTest" duration-ms="1177" started-at="2023-06-02T14:07:52Z" data-provider="UserNames" finished-at="2023-06-02T14:07:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="updateUserTest(java.lang.String)[pri:2, instance:api.tests.UsersTests@1d082e88]" name="updateUserTest" duration-ms="1220" started-at="2023-06-02T14:07:53Z" data-provider="UserNames" finished-at="2023-06-02T14:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="testGetUser(java.lang.String)[pri:3, instance:api.tests.UsersTests@1d082e88]" name="testGetUser" duration-ms="1164" started-at="2023-06-02T14:07:54Z" data-provider="UserNames" finished-at="2023-06-02T14:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method status="PASS" signature="testGetUser(java.lang.String)[pri:3, instance:api.tests.UsersTests@1d082e88]" name="testGetUser" duration-ms="1301" started-at="2023-06-02T14:07:55Z" data-provider="UserNames" finished-at="2023-06-02T14:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method status="PASS" signature="testGetUser(java.lang.String)[pri:3, instance:api.tests.UsersTests@1d082e88]" name="testGetUser" duration-ms="1259" started-at="2023-06-02T14:07:57Z" data-provider="UserNames" finished-at="2023-06-02T14:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+      </class> <!-- api.tests.UsersTests -->
+    </test> <!-- Users -->
+  </suite> <!-- PetStore -->
+</testng-results>
